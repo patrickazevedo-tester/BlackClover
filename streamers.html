@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- <head>
-   <meta charset="UTF-8">
-   <title>Streamers parceiros da Guild</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Black Clover</title>
   <style>
     body {
       margin: 0;
@@ -12,18 +12,50 @@
       display: flex;
     }
 
-   nav a:hover {
+    /* MENU LATERAL */
+    nav {
+      width: 220px;
+      background-color: #111;
+      border-right: 2px solid #b00000;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      text-align: center;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1em;
+      border-bottom: 1px solid #222;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
       background-color: #b00000;
     }
 
-   /* CONTEÚDO PRINCIPAL */
+    /* CONTEÚDO PRINCIPAL */
     main {
       margin-left: 220px;
       padding: 40px;
       flex: 1;
     }
 
-   section {
+    section {
       padding: 60px 0;
       border-bottom: 1px solid #222;
     }
@@ -42,17 +74,34 @@
       text-align: center;
     }
   </style>
-  <p>
-   <h1>Phyzor Oficial</h1>
-   <a href="https://www.twitch.tv/phyzoroficial" target="_blank">Phyzor Oficial</a>
-  </p>
-  <p>
-   <h1>Saffira Angel</h1> 
-   <a href="https://www.twitch.tv/saffiraangel" target="_blank">Saffira Angel</a>
-  </p>
-  <p> 
-   <h1>Luscasgb</h1>  
-   <a href="https://www.twitch.tv/luscasgb" target="_blank">Luscasgb</a>
-  </p>
- </head>
+</head>
+<body>
+  <!-- MENU LATERAL -->
+  <nav>
+    <img src="img/logo.png" alt="Logo Black Clover">
+    <a href="#sobre">Sobre</a>
+    <a href="#quests">Quests</a>
+    <a href="#membros">Membros</a>
+    <a href="#regras">Regras</a>
+    <a href="#discord">Discord</a>
+    <a href="streamers.html" target="_self">Streamers</a>
+  </nav>
+
+  <!-- CONTEÚDO -->
+  <main>
+    
+      <h2>Phyzor Oficial</h2>
+      <a href="https://www.twitch.tv/phyzoroficial" target="_blank">Phyzor Oficial</a>
+   
+      <h2>Saffira Angel</h2>
+      <a href="https://www.twitch.tv/saffiraangel" target="_blank">Saffira Angel</a>
+
+      <h2>Luscasgb</h2>
+      <a href="https://www.twitch.tv/luscasgb" target="_blank">Luscasgb</a>
+
+    <footer>
+      <p>© 2025 Black Clover - Todos os direitos reservados</p>
+    </footer>
+  </main>
+</body>
 </html>
