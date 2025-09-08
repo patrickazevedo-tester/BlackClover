@@ -7,7 +7,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #000; /* fundo preto */
+      background-color: #000;
       color: #fff;
       display: flex;
     }
@@ -17,7 +17,7 @@
       width: 220px;
       background-color: #111;
       border-right: 2px solid #b00000;
-      height: 100vh; /* ocupa altura total */
+      height: 100vh;
       position: fixed;
       top: 0;
       left: 0;
@@ -50,15 +50,20 @@
 
     /* CONTEÚDO PRINCIPAL */
     main {
-      margin-left: 220px; /* espaço pro menu */
+      margin-left: 220px;
       padding: 40px;
       flex: 1;
     }
 
-    h1 {
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #222;
+    }
+
+    section h2 {
       color: #b00000;
-      font-size: 2.5em;
-      margin-top: 0;
+      font-size: 2em;
+      margin-bottom: 15px;
     }
 
     footer {
@@ -73,7 +78,7 @@
 <body>
   <!-- MENU LATERAL -->
   <nav>
-    <img src="img/logo.png" alt="Logo Black Clover">
+    <img src="logo.png" alt="Logo Black Clover">
     <a href="#sobre">Sobre</a>
     <a href="#quests">Quests</a>
     <a href="#membros">Membros</a>
@@ -84,9 +89,35 @@
 
   <!-- CONTEÚDO -->
   <main>
-    <h1>Black Clover</h1>
-    <p>Bem-vindo à página oficial da guild <strong>Black Clover</strong>!  
-    Aqui você encontra nossas atividades, quests e espaço para reunir os amigos.</p>
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Texto sobre o grupo Black Clover. Aqui você pode contar a história, os objetivos e a proposta do grupo.</p>
+    </section>
+
+    <section id="quests">
+      <h2>Quests</h2>
+      <p>Espaço para listar missões, atividades e eventos do grupo.</p>
+    </section>
+
+    <section id="membros">
+      <h2>Membros</h2>
+      <p>Lista de membros do grupo Black Clover com seus papéis ou funções.</p>
+    </section>
+
+    <section id="regras">
+      <h2>Regras</h2>
+      <p>Defina aqui as regras do grupo para manter a organização e o respeito entre todos.</p>
+    </section>
+
+    <section id="discord">
+      <h2>Discord</h2>
+      <p>Link do servidor oficial do Discord: <a href="#" style="color:#b00000;">Entrar no Discord</a></p>
+    </section>
+
+    <section id="streamers">
+      <h2>Streamers</h2>
+      <p>Espaço para divulgar os canais de streaming dos membros do grupo.</p>
+    </section>
 
     <footer>
       <p>© 2025 Black Clover - Todos os direitos reservados</p>
